@@ -9,7 +9,6 @@ $dbCustRecords = mysqli_query($con, $sql_select_cust)
 
 //Fetches each of these customer records and displays the customer details
 //Cusomter ID stored $intId  ==> 8 Jones has no records
-//Cusomter ID stored $intId  ==> 8 Jones has no records
 
 while ($arrCustRecords = mysqli_fetch_array($dbCustRecords)){
     $intId = $arrCustRecords["Id"];
